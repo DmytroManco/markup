@@ -106,17 +106,17 @@ body {
     margin: 0 auto;
     max-width: 1157px;
     flex-grow: 1;
-    padding: 0 15px;
+    padding: 0 1em;
   }
   .people__search {
     margin: 4.28rem 0 5.35rem;
     flex-grow: 1;
     max-width: 1157px;
-    height: 60px;
     border: 1px solid $gallery;
     background-color: $concrete;
     box-shadow: 0 4px 12px $grayShadow;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     .search__icon {
       margin: 0 20px;
@@ -150,7 +150,7 @@ body {
   }
   .people__list {
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 1em;
     max-width: 1157px;
     flex-grow: 1;
     justify-content: center;
@@ -174,6 +174,9 @@ body {
         display: flex;
         align-items: center;
         margin: 25px 0;
+        @media screen and (max-width: 768px) {
+          justify-content: center;
+        }
         .socials__icon {
           height: 24px;
           margin: auto 15px auto 0;
@@ -194,6 +197,9 @@ body {
         }
       }
       .card__buttons {
+        @media screen and (max-width: 768px) {
+          text-align: center;
+        }
         button {
           @include button(47px, 234px, $blue);
         }
@@ -229,6 +235,9 @@ body {
   padding-bottom: 1px;
   .wrapper {
     margin: 8.214rem auto 8.92rem;
+    @media screen and (max-width: 768px) {
+      margin: 1em auto;
+    }
     .contact__info {
       .contact__msg {
         margin: 2.14rem 0 2.85rem;
@@ -260,18 +269,18 @@ body {
         width: 100%;
         height: 4rem;
         margin: 15px 0;
-        padding-left: 1rem;
+        padding-left: 1em;
       }
       .contact__textfield {
         width: 100%;
-        padding: 1rem;
+        padding: 1em;
         margin: 15px 0;
       }
       .contact__button {
         width: 100%;
         background-color: transparent;
         color: $white;
-        height: 3.57rem;
+        padding: 1em;
         border: 1px solid $white;
         font-weight: bold;
       }
@@ -288,6 +297,10 @@ body {
   padding-bottom: 1px;
   .wrapper {
     margin: 5.71rem auto 8.2rem;
+    @media screen and (max-width: 768px) {
+      margin: 1em auto;
+    }
+    padding: 0 1em;
     .footer__heading {
       margin-bottom: 2.14rem;
     }
