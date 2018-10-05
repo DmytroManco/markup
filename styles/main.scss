@@ -24,8 +24,8 @@ $mainFont: 'Arial';
   border: none;
   font-size: 15px;
   cursor: pointer;
-  &:active {
-    outline: 1px solid $blue;
+  &:hover {
+    background-color: lighten($bgColor, 20%);
   }
 }
 
@@ -103,8 +103,10 @@ body {
 // Main Content
 .people {
   .people__search--container {
+    margin: 0 auto;
     max-width: 1157px;
     flex-grow: 1;
+    padding: 0 15px;
   }
   .people__search {
     margin: 4.28rem 0 5.35rem;
@@ -147,6 +149,8 @@ body {
     }
   }
   .people__list {
+    margin: 0 auto;
+    padding: 0 15px;
     max-width: 1157px;
     flex-grow: 1;
     justify-content: center;
@@ -236,6 +240,9 @@ body {
           display: flex;
           align-items: center;
           padding-left: 55px;
+          a {
+            color: $white;
+          }
         }
         .connect__item--phone {
           background: url("../img/icons/contact_phone.png") no-repeat;

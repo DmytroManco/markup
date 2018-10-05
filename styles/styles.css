@@ -8679,13 +8679,15 @@ body {
   cursor: pointer;
   line-height: 1.819;
 }
-.page-header .header-content .header__button button:active {
-  outline: 1px solid #0072bc;
+.page-header .header-content .header__button button:hover {
+  background-color: #23a8ff;
 }
 
 .people .people__search--container {
+  margin: 0 auto;
   max-width: 1157px;
   flex-grow: 1;
+  padding: 0 15px;
 }
 .people .people__search {
   margin: 4.28rem 0 5.35rem;
@@ -8728,6 +8730,8 @@ body {
   margin: 0 5px;
 }
 .people .people__list {
+  margin: 0 auto;
+  padding: 0 15px;
   max-width: 1157px;
   flex-grow: 1;
   justify-content: center;
@@ -8783,8 +8787,8 @@ body {
   font-size: 15px;
   cursor: pointer;
 }
-.people .people__list .people__card .card__buttons button:active {
-  outline: 1px solid #0072bc;
+.people .people__list .people__card .card__buttons button:hover {
+  background-color: #23a8ff;
 }
 .people .people__pagination {
   margin: 5.35rem 0 5.35rem;
@@ -8822,6 +8826,9 @@ body {
   display: flex;
   align-items: center;
   padding-left: 55px;
+}
+.contact .wrapper .contact__info .contact__connect .connect__item a {
+  color: white;
 }
 .contact .wrapper .contact__info .contact__connect .connect__item--phone {
   background: url("../img/icons/contact_phone.png") no-repeat;
