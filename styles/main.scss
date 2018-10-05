@@ -25,7 +25,7 @@ $mainFont: 'Arial';
   font-size: 15px;
   cursor: pointer;
   &:hover {
-    background-color: lighten($bgColor, 20%);
+    background-color: lighten($bgColor, 3%);
   }
 }
 

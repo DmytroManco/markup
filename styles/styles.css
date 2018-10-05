@@ -8680,7 +8680,7 @@ body {
   line-height: 1.819;
 }
 .page-header .header-content .header__button button:hover {
-  background-color: #23a8ff;
+  background-color: #007bcb;
 }
 
 .people .people__search--container {
@@ -8788,7 +8788,7 @@ body {
   cursor: pointer;
 }
 .people .people__list .people__card .card__buttons button:hover {
-  background-color: #23a8ff;
+  background-color: #007bcb;
 }
 .people .people__pagination {
   margin: 5.35rem 0 5.35rem;
